@@ -22,6 +22,12 @@
         {
             "name": "Сергій Засадинський",
             "email": "main.profile.mail@gmail.com"
+        },
+        {
+            "name": "021",
+            "email": "devsellio@gmail.com",
+            "homepage": "https://021-projects.github.io/",
+            "role": "Developer"
         }
     ],
     "scripts": {
