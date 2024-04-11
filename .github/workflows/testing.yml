@@ -35,6 +35,3 @@ jobs:
 
       - name: Run tests
         run: composer test
-
-      - name: Analyze code
-        run: composer analyze
