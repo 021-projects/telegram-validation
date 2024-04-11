@@ -1,6 +1,6 @@
 <?php
 
-namespace TgWebValid\Exceptions;
+namespace TelegramWebApp\Validation\Exceptions;
 
 use Exception;
 

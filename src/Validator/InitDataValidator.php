@@ -1,9 +1,9 @@
 <?php
 
-namespace TgWebValid\Validator;
+namespace TelegramWebApp\Validation\Validator;
 
-use TgWebValid\Entities\InitData;
-use TgWebValid\Exceptions\ValidationException;
+use TelegramWebApp\Validation\Entities\InitData;
+use TelegramWebApp\Validation\Exceptions\ValidationException;
 
 final class InitDataValidator extends Validator
 {

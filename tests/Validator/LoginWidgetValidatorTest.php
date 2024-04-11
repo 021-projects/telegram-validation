@@ -1,11 +1,11 @@
 <?php
 
-namespace TgWebValid\Test\Validator;
+namespace TelegramWebApp\Validation\Tests\Validator;
 
 use PHPUnit\Framework\TestCase;
-use TgWebValid\Entities\LoginWidget;
-use TgWebValid\Exceptions\ValidationException;
-use TgWebValid\Validator\LoginWidgetValidator;
+use TelegramWebApp\Validation\Entities\LoginWidget;
+use TelegramWebApp\Validation\Exceptions\ValidationException;
+use TelegramWebApp\Validation\Validator\LoginWidgetValidator;
 
 class LoginWidgetValidatorTest extends TestCase
 {

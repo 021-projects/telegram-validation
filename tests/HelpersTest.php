@@ -1,6 +1,6 @@
 <?php
 
-namespace TgWebValid\Test;
+namespace TelegramWebApp\Validation\Tests;
 
 use PHPUnit\Framework\TestCase;
 

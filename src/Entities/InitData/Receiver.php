@@ -1,8 +1,8 @@
 <?php
 
-namespace TgWebValid\Entities\InitData;
+namespace TelegramWebApp\Validation\Entities\InitData;
 
-use TgWebValid\Make\Make;
+use TelegramWebApp\Validation\Make\Make;
 
 final class Receiver extends Make
 {

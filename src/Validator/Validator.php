@@ -1,6 +1,6 @@
 <?php
 
-namespace TgWebValid\Validator;
+namespace TelegramWebApp\Validation\Validator;
 
 abstract class Validator
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace TgWebValid\Entities;
+namespace TelegramWebApp\Validation\Entities;
 
 use PHPUnit\Framework\TestCase;
-use TgWebValid\Entities\InitData\Chat;
-use TgWebValid\Entities\InitData\Receiver;
-use TgWebValid\Entities\InitData\User;
-use TgWebValid\Support\Arrayable;
+use TelegramWebApp\Validation\Entities\InitData\Chat;
+use TelegramWebApp\Validation\Entities\InitData\Receiver;
+use TelegramWebApp\Validation\Entities\InitData\User;
+use TelegramWebApp\Validation\Support\Arrayable;
 
 final class InitDataTest extends TestCase
 {

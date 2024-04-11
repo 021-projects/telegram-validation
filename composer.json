@@ -44,12 +44,12 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "TgWebValid\\": "src/"
+            "TelegramWebApp\\Validation\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TgWebValid\\Test\\": "tests/"
+            "TelegramWebApp\\Validation\\Tests\\": "tests/"
         }
     }
 }

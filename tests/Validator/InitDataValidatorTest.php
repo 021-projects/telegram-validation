@@ -1,11 +1,11 @@
 <?php
 
-namespace TgWebValid\Test\Validator;
+namespace TelegramWebApp\Validation\Tests\Validator;
 
 use PHPUnit\Framework\TestCase;
-use TgWebValid\Entities\InitData;
-use TgWebValid\Exceptions\ValidationException;
-use TgWebValid\Validator\InitDataValidator;
+use TelegramWebApp\Validation\Entities\InitData;
+use TelegramWebApp\Validation\Exceptions\ValidationException;
+use TelegramWebApp\Validation\Validator\InitDataValidator;
 
 class InitDataValidatorTest extends TestCase
 {

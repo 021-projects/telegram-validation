@@ -1,12 +1,12 @@
 <?php
 
-namespace TgWebValid\Entities;
+namespace TelegramWebApp\Validation\Entities;
 
 use Carbon\CarbonInterface;
-use TgWebValid\Entities\InitData\Chat;
-use TgWebValid\Entities\InitData\Receiver;
-use TgWebValid\Entities\InitData\User;
-use TgWebValid\Make\Make;
+use TelegramWebApp\Validation\Entities\InitData\Chat;
+use TelegramWebApp\Validation\Entities\InitData\Receiver;
+use TelegramWebApp\Validation\Entities\InitData\User;
+use TelegramWebApp\Validation\Make\Make;
 
 final class InitData extends Make
 {

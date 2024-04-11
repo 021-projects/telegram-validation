@@ -1,10 +1,10 @@
 <?php
 
-namespace TgWebValid\Test;
+namespace TelegramWebApp\Validation\Tests;
 
 use PHPUnit\Framework\TestCase;
-use TgWebValid\Bot;
-use TgWebValid\Exceptions\ValidationException;
+use TelegramWebApp\Validation\Bot;
+use TelegramWebApp\Validation\Exceptions\ValidationException;
 
 final class BotTest extends TestCase
 {

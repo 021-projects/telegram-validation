@@ -33,7 +33,7 @@ Also, if you want to throw an exception in case of a validation error, set the s
 ```php
 <?php
 
-use TgWebValid\TgWebValid;
+use TelegramWebApp\Validation\TgWebValid;
 
 include './vendor/autoload.php';
 
@@ -133,9 +133,9 @@ $loginWidget->authDate;
 ```php
 <?php
 
-use TgWebValid\TgWebValid;
-use TgWebValid\Exceptions\BotException;
-use TgWebValid\Exceptions\ValidationException;
+use TelegramWebApp\Validation\TgWebValid;
+use TelegramWebApp\Validation\Exceptions\BotException;
+use TelegramWebApp\Validation\Exceptions\ValidationException;
 use Exception;
 
 include './vendor/autoload.php';

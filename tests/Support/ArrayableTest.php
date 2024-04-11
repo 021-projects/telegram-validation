@@ -1,11 +1,11 @@
 <?php
 
-namespace TgWebValid\Test\Support;
+namespace TelegramWebApp\Validation\Tests\Support;
 
 use PHPUnit\Framework\TestCase;
 use stdClass;
-use TgWebValid\Make\Make;
-use TgWebValid\Support\Arrayable;
+use TelegramWebApp\Validation\Make\Make;
+use TelegramWebApp\Validation\Support\Arrayable;
 
 final class ArrayableTest extends TestCase
 {

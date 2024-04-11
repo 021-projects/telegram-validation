@@ -1,10 +1,10 @@
 <?php
 
-namespace TgWebValid\Test\Entities;
+namespace TelegramWebApp\Validation\Tests\Entities;
 
 use PHPUnit\Framework\TestCase;
-use TgWebValid\Entities\LoginWidget;
-use TgWebValid\Support\Arrayable;
+use TelegramWebApp\Validation\Entities\LoginWidget;
+use TelegramWebApp\Validation\Support\Arrayable;
 
 final class LoginWidgetTest extends TestCase
 {

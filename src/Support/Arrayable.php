@@ -1,6 +1,6 @@
 <?php
 
-namespace TgWebValid\Support;
+namespace TelegramWebApp\Validation\Support;
 
 use ReflectionClass;
 use ReflectionProperty;

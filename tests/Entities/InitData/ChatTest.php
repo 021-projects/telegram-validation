@@ -1,10 +1,10 @@
 <?php
 
-namespace TgWebValid\Test\Entities\InitData;
+namespace TelegramWebApp\Validation\Tests\Entities\InitData;
 
 use PHPUnit\Framework\TestCase;
-use TgWebValid\Entities\InitData\Chat;
-use TgWebValid\Support\Arrayable;
+use TelegramWebApp\Validation\Entities\InitData\Chat;
+use TelegramWebApp\Validation\Support\Arrayable;
 
 final class ChatTest extends TestCase
 {

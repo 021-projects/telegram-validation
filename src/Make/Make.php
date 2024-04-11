@@ -1,11 +1,11 @@
 <?php
 
-namespace TgWebValid\Make;
+namespace TelegramWebApp\Validation\Make;
 
 use Carbon\Carbon;
 use ReflectionNamedType;
 use ReflectionProperty;
-use TgWebValid\Support\Arrayable;
+use TelegramWebApp\Validation\Support\Arrayable;
 
 abstract class Make extends Arrayable
 {

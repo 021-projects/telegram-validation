@@ -1,11 +1,11 @@
 <?php
 
-namespace TgWebValid;
+namespace TelegramWebApp\Validation;
 
-use TgWebValid\Entities\InitData;
-use TgWebValid\Entities\LoginWidget;
-use TgWebValid\Validator\InitDataValidator;
-use TgWebValid\Validator\LoginWidgetValidator;
+use TelegramWebApp\Validation\Entities\InitData;
+use TelegramWebApp\Validation\Entities\LoginWidget;
+use TelegramWebApp\Validation\Validator\InitDataValidator;
+use TelegramWebApp\Validation\Validator\LoginWidgetValidator;
 
 class Bot
 {

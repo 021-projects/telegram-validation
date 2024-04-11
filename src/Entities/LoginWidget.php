@@ -1,9 +1,9 @@
 <?php
 
-namespace TgWebValid\Entities;
+namespace TelegramWebApp\Validation\Entities;
 
 use Carbon\CarbonInterface;
-use TgWebValid\Make\Make;
+use TelegramWebApp\Validation\Make\Make;
 
 final class LoginWidget extends Make
 {

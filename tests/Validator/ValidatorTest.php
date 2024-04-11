@@ -1,9 +1,9 @@
 <?php
 
-namespace TgWebValid\Test\Validator;
+namespace TelegramWebApp\Validation\Tests\Validator;
 
 use PHPUnit\Framework\TestCase;
-use TgWebValid\Validator\Validator;
+use TelegramWebApp\Validation\Validator\Validator;
 
 final class ValidatorTest extends TestCase
 {

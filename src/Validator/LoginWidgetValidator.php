@@ -1,9 +1,9 @@
 <?php
 
-namespace TgWebValid\Validator;
+namespace TelegramWebApp\Validation\Validator;
 
-use TgWebValid\Entities\LoginWidget;
-use TgWebValid\Exceptions\ValidationException;
+use TelegramWebApp\Validation\Entities\LoginWidget;
+use TelegramWebApp\Validation\Exceptions\ValidationException;
 
 final class LoginWidgetValidator extends Validator
 {

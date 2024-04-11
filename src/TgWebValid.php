@@ -1,8 +1,8 @@
 <?php
 
-namespace TgWebValid;
+namespace TelegramWebApp\Validation;
 
-use TgWebValid\Exceptions\BotException;
+use TelegramWebApp\Validation\Exceptions\BotException;
 
 final class TgWebValid
 {

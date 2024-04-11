@@ -1,6 +1,6 @@
 <?php
 
-namespace TgWebValid;
+namespace TelegramWebApp\Validation;
 
 class BotConfig
 {
