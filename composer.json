@@ -1,7 +1,7 @@
 {
-    "name": "tg/tgwebvalid",
+    "name": "telegram/validation",
     "license": "MIT",
-    "description": "An easy way to validate Telegram Login Widget and Telegram Mini App users on your website using PHP",
+    "description": "A library for validating Telegram callbacks",
     "keywords": [
         "telegram",
         "authentication",
