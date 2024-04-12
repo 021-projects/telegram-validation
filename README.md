@@ -21,11 +21,17 @@ composer require 021/telegram-validation
 Mechanism: [Validating data received via the Mini App](https://core.telegram.org/bots/webapps#validating-data-received-via-the-mini-app)
 
 ```php
+$token = 'YOUR_BOT_TOKEN';
+
+// Short with helper function
+use function Telegram\Validation\Helpers\validate_wa_init_data;
+
+$isValid = validate_wa_init_data('query_id=...', $token);
+
+// Expanded with class
 use Telegram\Validation\WebAppInitData;
 
-$token = 'YOUR_BOT_TOKEN';
 $validator = new WebAppInitData($token);
-
 $isValid = $validator->validate('query_id=...');
 ```
 
@@ -34,33 +40,46 @@ $isValid = $validator->validate('query_id=...');
 Mechanism: [Checking authorization](https://core.telegram.org/widgets/login#checking-authorization)
 
 ```php
+$token = 'YOUR_BOT_TOKEN';
+$input = ['auth_date' => 666, /*...*/]; // request input
+
+// Short with helper function
+use function Telegram\Validation\Helpers\validate_login_widget;
+
+$isValid = validate_login_widget($input, $token);
+
+// Expanded with class
 use Telegram\Validation\LoginWidget;
 
-$token = 'YOUR_BOT_TOKEN';
 $validator = new LoginWidget($token);
-
-$isValid = $validator->validate([
-    // request input
-]);
+$isValid = $validator->validate($input);
 ```
 
-### Extraction
+### Parsing
 021/telegram-validation also provides classes to parse the data to objects.
 
 #### Web App Init Data
 
 ```php
-use Telegram\Validation\WebAppInitData;
-
 $token = 'YOUR_BOT_TOKEN';
-$validator = new WebAppInitData($token);
-
 /** 
  * @link https://core.telegram.org/bots/webapps#webappinitdata
  * @var \Telegram\Validation\Entities\WebAppInitData $webAppInitData 
  */
+$webAppInitData;
+
+// Short with helper function
+use function Telegram\Validation\Helpers\parse_wa_init_data;
+
+$webAppInitData = parse_wa_init_data('query_id=...', $token);
+
+// Expanded with class
+use Telegram\Validation\WebAppInitData;
+
+$validator = new WebAppInitData($token);
 $webAppInitData = $validator->extract('query_id=...');
 
+// Accessing fields
 echo $webAppInitData->queryId; // query_id
 echo $webAppInitData->chat->username; // chat.username
 echo $webAppInitData->chatType; // chat_type
@@ -70,19 +89,25 @@ echo $webAppInitData->chatType; // chat_type
 #### Login Widget
 
 ```php
-use Telegram\Validation\LoginWidget;
-
 $token = 'YOUR_BOT_TOKEN';
-$validator = new LoginWidget($token);
-
+$input = ['auth_date' => 666, /*...*/]; // request input 
 /** 
  * @link https://core.telegram.org/widgets/login#receiving-authorization-data
  * @var \Telegram\Validation\Entities\LoginWidgetCallback $loginWidget 
  */
-$loginWidget = $validator->extract(
-    // request input in array or string format
-);
+$loginWidget;
 
+// Short with helper function
+use function Telegram\Validation\Helpers\parse_login_widget;
+$loginWidget = parse_login_widget($input, $token);
+
+// Expanded with class
+use Telegram\Validation\LoginWidget;
+
+$validator = new LoginWidget($token);
+$loginWidget = $validator->extract($input);
+
+// Accessing fields
 echo $loginWidget->firstName; // first_name
 echo $loginWidget->lastName; // last_name
 /** @var \Carbon\CarbonInterface $carbon */

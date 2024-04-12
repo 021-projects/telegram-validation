@@ -9,9 +9,9 @@ use Telegram\Validation\LoginWidget;
 
 class LoginWidgetTest extends TestCase
 {
-    private const BOT_TOKEN = '5854973744:AAFnq4HoybEzqCJ-8HYHY_zlvkc_-H-kXq4';
+    public const BOT_TOKEN = '5854973744:AAFnq4HoybEzqCJ-8HYHY_zlvkc_-H-kXq4';
 
-    private const FALLBACK = [
+    public const FALLBACK = [
         'auth_date' => 1685117908,
         'first_name' => 'Сергій',
         'hash' => 'e286fe20edabc0f086ba11bad5eead92a67776d01ac97e814ddfb683974d16e9',
