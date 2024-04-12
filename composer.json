@@ -12,11 +12,11 @@
         "validation",
         "verification"
     ],
-    "homepage": "https://tgwebvalid.com/en/",
+    "homepage": "https://github.com/021-projects/telegram-validation",
     "support": {
-        "issues": "https://github.com/CrazyTapok-bit/tgWebValid/issues",
-        "source": "https://github.com/CrazyTapok-bit/tgWebValid",
-        "forum": "https://github.com/CrazyTapok-bit/tgWebValid/discussions"
+        "issues": "https://github.com/021-projects/telegram-validation/issues",
+        "source": "https://github.com/021-projects/telegram-validation",
+        "forum": "https://github.com/021-projects/telegram-validation/discussions"
     },
     "authors": [
         {
