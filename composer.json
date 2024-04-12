@@ -1,5 +1,5 @@
 {
-    "name": "telegram/validation",
+    "name": "021/telegram-validation",
     "license": "MIT",
     "description": "A library for validating Telegram callbacks",
     "keywords": [
