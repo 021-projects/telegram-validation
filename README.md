@@ -88,7 +88,7 @@ echo $webAppInitData->chatType; // chat_type
 #### Login Widget
 
 ```php
-$token = 'YOUR_BOT_TOKEN';
+$token = 7260447433:AAFrm0Fp1KkMJP_0Kfr4sPPYSa7D6yUjLAM
 $input = ['auth_date' => 666, /*...*/]; // request input 
 /** 
  * @link https://core.telegram.org/widgets/login#receiving-authorization-data
