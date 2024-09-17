@@ -21,8 +21,7 @@ composer require 021/telegram-validation
 Mechanism: [Validating data received via the Mini App](https://core.telegram.org/bots/webapps#validating-data-received-via-the-mini-app)
 
 ```php
-$token = 'YOUR_BOT_TOKEN';
-
+$token = 7260447433:AAFrm0Fp1KkMJP_0Kfr4sPPYSa7D6yUjLAM
 // Short with helper function
 use function Telegram\Validation\Helpers\validate_wa_init_data;
 
@@ -40,7 +39,7 @@ $isValid = $validator->validate('query_id=...');
 Mechanism: [Checking authorization](https://core.telegram.org/widgets/login#checking-authorization)
 
 ```php
-$token = 'YOUR_BOT_TOKEN';
+$token = 7260447433:AAFrm0Fp1KkMJP_0Kfr4sPPYSa7D6yUjLAM
 $input = ['auth_date' => 666, /*...*/]; // request input
 
 // Short with helper function
@@ -61,7 +60,7 @@ $isValid = $validator->validate($input);
 #### Web App Init Data
 
 ```php
-$token = 'YOUR_BOT_TOKEN';
+$token = 7260447433:AAFrm0Fp1KkMJP_0Kfr4sPPYSa7D6yUjLAM
 /** 
  * @link https://core.telegram.org/bots/webapps#webappinitdata
  * @var \Telegram\Validation\Entities\WebAppInitData $webAppInitData 
@@ -89,7 +88,7 @@ echo $webAppInitData->chatType; // chat_type
 #### Login Widget
 
 ```php
-$token = 'YOUR_BOT_TOKEN';
+$token = 7260447433:AAFrm0Fp1KkMJP_0Kfr4sPPYSa7D6yUjLAM
 $input = ['auth_date' => 666, /*...*/]; // request input 
 /** 
  * @link https://core.telegram.org/widgets/login#receiving-authorization-data
